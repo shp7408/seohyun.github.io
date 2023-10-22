@@ -30,7 +30,7 @@ logo: /img/1.svg
 img_prefix:  # cloud image prefix
 rss: /feed.xml
 
-baseurl: /blog # the subpath of your site, e.g. /blog
+baseurl:  # the subpath of your site, e.g. /blog
 url: "https://shp7408.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  shp7408
 
