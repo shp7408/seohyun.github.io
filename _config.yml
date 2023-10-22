@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: seohyun park
+# title: seohyun park
 email: shp7408@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This space is where I organize and summarize the things I have studied related to development.
@@ -55,7 +55,7 @@ theme_setting:
   lang:
     category_all: All
     blog_title: Blog
-    
+
 head_code:
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-562FQESFKN"></script>
