@@ -30,7 +30,7 @@ logo: /img/1.svg
 img_prefix:  # cloud image prefix
 rss: /feed.xml
 
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: # /blog # the subpath of your site, e.g. /blog
 url: "https://shp7408.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  shp7408
 
@@ -56,16 +56,16 @@ theme_setting:
     category_all: All
     blog_title: Blog
 
-# head_code:
-#   <!-- Google tag (gtag.js) -->
-#   <script async src="https://www.googletagmanager.com/gtag/js?id=G-562FQESFKN"></script>
-#   <script>
-#     window.dataLayer = window.dataLayer || [];
-#     function gtag(){dataLayer.push(arguments);}
-#     gtag('js', new Date());
+head_code:
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-562FQESFKN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-#     gtag('config', 'G-562FQESFKN');
-#   </script>
+    gtag('config', 'G-562FQESFKN');
+  </script>
 
 #     comment:
 #       user: "Nickname"
