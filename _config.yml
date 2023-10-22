@@ -1,4 +1,4 @@
-title: Seohyun Park's blog
+title: Seohyun Dev Blog
 email: shp7408@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   This space is where I organize and summarize the things I have studied related to development.
@@ -22,8 +22,8 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
 
-remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
-# theme: jekyll-theme-clean-blog
+# remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
+theme: jekyll-theme-clean-blog
 
 # # Welcome to Jekyll!
 # #

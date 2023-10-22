@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Posts
-background: '/img/bg-post.jpg'
+description: Posts
+background: '/img/background.gif'
 ---
 
 {% for post in paginator.posts %}
@@ -15,13 +16,14 @@ background: '/img/bg-post.jpg'
     <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
     {% endif %}
   </a>
-  <p class="post-meta">Posted by
-    {% if post.author %}
-    {{ post.author }}
-    {% else %}
-    {{ site.author }}
-    {% endif %}
+  <p class="post-meta">Posted 
     on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
+  </p>
+  <p class="post-category">
+    {% for category in post.categories %}
+    <a href="{{ site.baseurl }}/categories/#{{ category | slugify }}">{{ category }}</a>
+    {% unless forloop.last %}&middot;{% endunless %}
+    {% endfor %}
   </p>
 </article>
 
