@@ -57,15 +57,15 @@ theme_setting:
     blog_title: Blog
 
 head_code:
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-562FQESFKN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-562FQESFKN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'G-562FQESFKN');
-</script>
+    gtag('config', 'G-562FQESFKN');
+  </script>
 
 #     comment:
 #       user: "Nickname"
