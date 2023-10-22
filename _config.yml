@@ -35,7 +35,8 @@ url: "https://shp7408.github.io" # the base hostname & protocol for your site, e
 github_username:  shp7408
 
 # Build settings
-theme: jekyll-theme-persephone
+# theme: jekyll-theme-persephone
+remote_theme: erlzhang/jekyll-theme-persephone
 plugins:
   - jekyll-feed
 
