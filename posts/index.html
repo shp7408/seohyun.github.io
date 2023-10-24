@@ -16,7 +16,7 @@ background: '/assets/background.gif'
     <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
     {% endif %}
   </a>
-  <p class="post-meta">Posted 
+  <p class="post-meta">Posted
     on {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}
   </p>
   <p class="post-category">
