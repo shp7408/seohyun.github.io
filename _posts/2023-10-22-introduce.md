@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "안정적인 서비스 개발에 관심이 많은 백엔드 개발자, 박서현 입니다.👋"
-subtitle: "I'm a Backend Developer based in Seoul, Korea. I have started programming since 2020"
 date: 2023-10-22 21:56:00 +0900
 categories: [introduce]
 tags: [introduce]
 ---
-## 안정적인 서비스 개발에 관심이 많은 백엔드 개발자, 박서현 입니다 👋
+## 안정적인 서비스 개발에 관심이 많은 백엔드 개발자,
+## 박서현 입니다 👋
 
 <div align="right">
 
@@ -17,6 +17,7 @@ tags: [introduce]
 ![GraphQL Badge](https://img.shields.io/badge/GraphQL-E10098?style=plastic&logo=graphQL&logoColor=white)
 ![JAVA Badge](https://img.shields.io/badge/JAVA-007396?style=plastic&logoColor=white)
 ![Springboot Badge](https://img.shields.io/badge/springboot-6DB33F?style=plastic&logo=springboot&logoColor=white)
+
 </div>
 
 
