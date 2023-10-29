@@ -8,8 +8,6 @@ tags: [introduce]
 ## 안정적인 서비스 개발에 관심이 많은 백엔드 개발자,
 ## 박서현 입니다 👋
 
-<div align="right">
-
 ![TypeScript Badge](https://img.shields.io/badge/typescript-3178C6?style=plastic&logo=typescript&logoColor=white)
 ![JavaScript Badge](https://img.shields.io/badge/javascript-F7DF1E?style=plastic&logo=javascript&logoColor=black)
 ![Node.js Badge](https://img.shields.io/badge/node.js-339933?style=plastic&logo=Node.js&logoColor=white)
@@ -17,8 +15,6 @@ tags: [introduce]
 ![GraphQL Badge](https://img.shields.io/badge/GraphQL-E10098?style=plastic&logo=graphQL&logoColor=white)
 ![JAVA Badge](https://img.shields.io/badge/JAVA-007396?style=plastic&logoColor=white)
 ![Springboot Badge](https://img.shields.io/badge/springboot-6DB33F?style=plastic&logo=springboot&logoColor=white)
-
-</div>
 
 
 > 불편함을 당연시 여기지 않고,
