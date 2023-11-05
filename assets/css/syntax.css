@@ -1,5 +1,8 @@
 .highlight table td { padding: 5px; }
-.highlight table pre { margin: 0; }
+.highlight table pre {
+  margin: 0;
+  color: #f8f8f2;
+}
 .highlight, .highlight .w {
   color: #f8f8f2 !important;
   background-color: #272822;
