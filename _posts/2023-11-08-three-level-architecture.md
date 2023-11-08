@@ -2,7 +2,7 @@
 layout: post
 title: "3 Level Architecture & Database Independence"
 date: 2023-11-08 12:53:45 +0900
-categories: [dbms, database]
+categories: [database, 3levelarchitecture, 데이터 독립성]
 ---
 
 # Database Independence ( 데이터 독립성 )
