@@ -3,7 +3,6 @@ layout: post
 title: "Transaction"
 date: 2023-12-06 20:48:18 +0900
 categories: [database, transaction, ACID, transaction state, 동시성 제어]
-tags: [database, transaction, ACID, transaction state, 동시성 제어]
 ---
 
 ### Transaction ( 트랜잭션 )
