@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "3 Level Architecture & Database Independence"
+title: "Database Independence"
+subtitle: "데이터 독립성"
 date: 2023-11-08 12:53:45 +0900
-categories: [database, 3levelarchitecture, 데이터 독립성]
+categories: [DATABASE]
 ---
 
-# Database Independence ( 데이터 독립성 )
+### Database Independence ( 데이터 독립성 )
 
 데이터 독립성이란, 데이터베이스의 구조와 데이터의 내용이 서로 영향을 미치지 않는 것을 말한다.
 
@@ -13,7 +14,7 @@ categories: [database, 3levelarchitecture, 데이터 독립성]
 
 <br>
 
-### 1. 논리적 데이터 독립성
+#### 1. 논리적 데이터 독립성
 
 논리적 데이터 독립성은, 데이터베이스의 논리적 구조가 변경되어도, 응용 프로그램이나 다른 논리적 구조에 영향을 미치지 않는 것을 말한다.
 
@@ -21,7 +22,7 @@ categories: [database, 3levelarchitecture, 데이터 독립성]
 
 <br>
 
-### 2. 물리적 데이터 독립성
+#### 2. 물리적 데이터 독립성
 
 물리적 데이터 독립성은, 데이터베이스의 물리적 구조가 변경되어도, 응용 프로그램이나 다른 물리적 구조에 영향을 미치지 않는 것을 말한다.
 
@@ -29,7 +30,7 @@ categories: [database, 3levelarchitecture, 데이터 독립성]
 
 <br>
 
-### 데이터 독립성의 장점
+#### 데이터 독립성의 장점
 
 데이터 독립성은, 데이터베이스의 구조를 변경하거나, 데이터를 이동하는 작업을 쉽게 할 수 있도록 해준다.
 
@@ -39,7 +40,7 @@ categories: [database, 3levelarchitecture, 데이터 독립성]
 
 데이터 독립성을 제공하는 방법에는, 3 Level Architecture 가 있다.
 
-# 3 Level Architecture ( 3단계 구조 )
+### 3 Level Architecture ( 3단계 구조 )
 
 
 3 Level Architecture 는, 데이터베이스 시스템을 3가지의 레벨로 나눈 것이다.
@@ -52,7 +53,7 @@ categories: [database, 3levelarchitecture, 데이터 독립성]
 
 <br>
 
-### 1. External Level
+#### 1. External Level
 
 External Level 은, 사용자 관점에서 데이터베이스를 정의한 것이다.
 
@@ -60,7 +61,7 @@ External Level 은, 사용자 관점에서 데이터베이스를 정의한 것�
 
 <br>
 
-### 2. Conceptual Level
+#### 2. Conceptual Level
 
 Conceptual Level 은, 전체적인 데이터베이스의 논리적 구조를 정의한 것이다.
 
@@ -68,7 +69,7 @@ Conceptual Level 은, 전체적인 데이터베이스의 논리적 구조를 정
 
 <br>
 
-### 3. Internal Level
+#### 3. Internal Level
 
 Internal Level 은, 데이터베이스를 물리적으로 어떻게 저장할 것인지를 정의한 것이다.
 
@@ -92,7 +93,7 @@ Internal Level 은, 데이터베이스를 물리적으로 어떻게 저장할 �
 
 <br>
 
-### 1. External Schema
+#### 1. External Schema
 
 External Schema 는, 사용자 관점에서 데이터베이스의 구조를 정의한 것이다.
 
@@ -100,7 +101,7 @@ External Schema 는, 사용자 관점에서 데이터베이스의 구조를 정�
 
 <br>
 
-### 2. Conceptual Schema
+#### 2. Conceptual Schema
 
 Conceptual Schema 는, 전체적인 데이터베이스의 논리적 구조를 정의한 것이다.
 
@@ -108,10 +109,8 @@ Conceptual Schema 는, 전체적인 데이터베이스의 논리적 구조를 �
 
 <br>
 
-### 3. Internal Schema
+#### 3. Internal Schema
 
 Internal Schema 는, 데이터베이스를 물리적으로 어떻게 저장할 것인지를 정의한 것이다.
 
 즉, 데이터베이스를 물리적으로 어떻게 저장할 것인지를 정의한 것이다.
-
-<br>

@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Referential Integrity Constraint"
+subtitle: "참조 무결성 제약조건"
 date: 2023-11-16 12:34:24 +0900
-categories: [database, 참조 무결성 제약조건, integrity constraint]
+categories: [DATABASE]
 ---
 
-# Referential Integrity Constraint ( 참조 무결성 제약조건 )
+### Referential Integrity Constraint ( 참조 무결성 제약조건 )
 
 일단, 데이터 무결성이란, 데이터베이스에 저장된 데이터의 일관성과 정확성을 지키는 것을 말한다.
 

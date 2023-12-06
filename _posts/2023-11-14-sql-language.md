@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "SQL Language"
+subtitle: "SQL 언어 - 데이터베이스에서 데이터를 정의하고, 조작하기 위해 사용하는 언어"
 date: 2023-11-14 10:00:13 +0900
-categories: [database]
+categories: [DATABASE]
 ---
 
 # SQL Language

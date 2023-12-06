@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Transaction"
+subtitle: "트랜잭션 - 데이터베이스의 DML, 즉 삽입, 갱신, 삭제와 관련된 논리적인 작업"
 date: 2023-12-06 20:48:18 +0900
-categories: [database, transaction, ACID, transaction state, 동시성 제어]
+categories: [DATABASE]
 ---
 
 ### Transaction ( 트랜잭션 )
@@ -33,7 +34,7 @@ categories: [database, transaction, ACID, transaction state, 동시성 제어]
 
 트랜잭션이 성공하면, 트랜잭션의 결과를 영구적으로 보장해야 한다.
 
-<br>
+<hr>
 
 ### 트랜잭션의 상태
 
@@ -47,7 +48,7 @@ categories: [database, transaction, ACID, transaction state, 동시성 제어]
 
 5. 철회 ( Aborted ) : 트랜잭션이 비정상적으로 종료되어 Rollback 연산을 수행한 상태
 
-<br>
+<hr>
 
 ### 동시성 제어
 
@@ -77,7 +78,7 @@ categories: [database, transaction, ACID, transaction state, 동시성 제어]
 
 트랜잭션 T1 이 트랜잭션 T2 에 의해 갱신된 데이터를 읽고, 트랜잭션 T1 이 Rollback 되면, 트랜잭션 T2 도 Rollback 되는 현상을 말합니다.
 
-<br>
+<hr>
 
 ### 락 ( Lock )
 
@@ -115,7 +116,7 @@ categories: [database, transaction, ACID, transaction state, 동시성 제어]
 
 데드락은 대기 그래프 ( Wait-for-graph ) 를 통해 발견할 수 있다.
 
-<br>
+<hr>
 
 ### 트랜잭션 고립 수준
 
