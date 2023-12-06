@@ -1,0 +1,17 @@
+---
+layout: default
+title: FRAMEWORK
+slug: FRAMEWORK
+---
+
+<h1>{{ page.title }}</h1>
+
+<ul>
+    {% for post in site.posts %}
+        {% if post.categories contains 'FRAMEWORK' %}
+            <li>
+                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </li>
+        {% endif %}
+    {% endfor %}
+</ul>
