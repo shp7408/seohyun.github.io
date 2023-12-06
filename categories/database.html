@@ -34,7 +34,7 @@ slug: DATABASE
 
                 <!-- Home Post List -->
                 {% for post in site.posts limit : 5 %}
-                    {% if post.categories contains 'FRAMEWORK' %}
+                    {% if post.categories contains 'DATABASE' %}
 
                     <article class="post-preview">
                     <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
