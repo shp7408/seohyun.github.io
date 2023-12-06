@@ -137,6 +137,8 @@ InnoDB는 이 고립 수준을 사용하여 트랜잭션 중 발생할 수 있�
 
 #### 트랜잭션 고립 수준 ( Transaction Isolation Level ) 명령어 종류
 
+<br>
+
 1. READ UNCOMMITTED ( Level 0 ) : 트랜잭션이 커밋되지 않은 데이터를 읽을 수 있다.
 
 | 모드       | READ UNCOMMITTED                                          |
@@ -147,6 +149,7 @@ InnoDB는 이 고립 수준을 사용하여 트랜잭션 중 발생할 수 있�
 | SQL 문     | SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED          |
 | 문제점     | 오손 읽기, 반복불가능 읽기, 유령데이터 읽기               |
 
+<br>
 
 2. READ COMMITTED : 트랜잭션이 커밋된 데이터만 읽을 수 있다.
 
@@ -158,6 +161,8 @@ InnoDB는 이 고립 수준을 사용하여 트랜잭션 중 발생할 수 있�
 | SQL 문     | SET TRANSACTION ISOLATION LEVEL READ COMMITTED            |
 | 문제점     | 반복불가능 읽기, 유령데이터 읽기                           |
 
+<br>
+
 3. REPEATABLE READ : 트랜잭션이 커밋된 데이터만 읽을 수 있고, 트랜잭션이 완료될 때까지 같은 데이터를 읽을 수 있다.
 
 | 모드       | REPEATABLE READ                                           |
@@ -167,6 +172,8 @@ InnoDB는 이 고립 수준을 사용하여 트랜잭션 중 발생할 수 있�
 |            | 다른 트랜잭션의 공유락은 읽지만, 배타락은 읽지 못함       |
 | SQL 문     | SET TRANSACTION ISOLATION LEVEL REPEATABLE READ           |
 | 문제점     | 유령데이터 읽기                                           |
+
+<br>
 
 4. SERIALIZABLE : 트랜잭션이 완료될 때까지 같은 데이터를 읽을 수 있고, 다른 트랜잭션이 같은 데이터에 대한 갱신을 할 수 없다.
 
