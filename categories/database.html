@@ -55,7 +55,7 @@ slug: DATABASE
                     <p class="post-meta">
                         Categories:
                         {% for category in post.categories %}
-                            <a href="{{ '/categories/' | append: category | prepend: site.baseurl }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}
+                            <a href="{{ site.baseurl }}/categories/{{ category | slugify }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}
                         {% endfor %}
                     </p>
                     </article>
