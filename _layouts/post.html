@@ -23,6 +23,11 @@ layout: default
                             on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
                             content=page.content %}
                         </span>
+                        <span class="meta">
+                            {% for category in page.categories %}
+                                <a href="{{ site.baseurl }}/categories/#{{ category | slugify }}">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+                            {% endfor %}
+                        </span>
                     </div>
                 </div>
             </div>
