@@ -20,7 +20,7 @@ background: '/assets/background.gif'
   </p>
   <p class="post-category">
     {% for category in post.categories %}
-    <a href="{{ site.baseurl }}/categories/#{{ category | slugify }}">{{ category }}</a>
+    <a href="{{ site.baseurl }}/categories/{{ category | slugify }}">{{ category }}</a>
     {% unless forloop.last %}&middot;{% endunless %}
     {% endfor %}
   </p>
