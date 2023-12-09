@@ -1,8 +1,8 @@
 ---
 layout: default
-title: NESTJS
-subtitle: posts about NESTJS
-slug: NESTJS
+title: RETROSPECTIVE
+subtitle: posts about RETROSPECTIVE
+slug: RETROSPECTIVE
 ---
 {% if page.background %}
 <header class="masthead"
@@ -30,7 +30,7 @@ slug: NESTJS
 
             <!-- Home Post List -->
             {% for post in site.posts limit : 5 %}
-                {% if post.categories contains 'NESTJS' %}
+                {% if post.categories contains 'RETROSPECTIVE' %}
 
                 <article class="post-preview">
                 <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
