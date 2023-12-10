@@ -34,7 +34,7 @@ categories: [DATABASE]
 
 트랜잭션이 성공하면, 트랜잭션의 결과를 영구적으로 보장해야 한다.
 
-![acid](https://github.com/toonsquare/world-app-legacy/assets/62336151/ccbd2459-a309-4647-80ac-d45d57ae2109)
+https://github-production-user-asset-6210df.s3.amazonaws.com/62336151/289341641-ccbd2459-a309-4647-80ac-d45d57ae2109.gif?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231210%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231210T063751Z&X-Amz-Expires=300&X-Amz-Signature=24fd2db63cf161f1cf60fd56344af01dfdf554d8f72087c4ccf49c05938d2cf0&X-Amz-SignedHeaders=host&actor_id=62336151&key_id=0&repo_id=679198647
 
 <hr>
 
