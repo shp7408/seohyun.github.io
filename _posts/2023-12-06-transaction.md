@@ -35,7 +35,7 @@ categories: [DATABASE]
 트랜잭션이 성공하면, 트랜잭션의 결과를 영구적으로 보장해야 한다.
 
 <p align="center">
-  <img src="https://github.com/toonsquare/world-app-legacy/assets/62336151/3d6a5a0c-9de5-48f6-b288-b10c6d5806cf" alt="acid" width="500px">
+  <img src="https://github.com/shp7408/shp7408.github.io/assets/62336151/dd501dfc-ac01-43d6-8c97-d81af92f96c1" alt="acid" width="500px">
 </p>
 
 ### 트랜잭션의 상태
