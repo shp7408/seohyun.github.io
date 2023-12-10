@@ -34,6 +34,8 @@ categories: [DATABASE]
 
 트랜잭션이 성공하면, 트랜잭션의 결과를 영구적으로 보장해야 한다.
 
+![acid](https://github.com/toonsquare/world-app-legacy/assets/62336151/ccbd2459-a309-4647-80ac-d45d57ae2109)
+
 <hr>
 
 ### 트랜잭션의 상태
