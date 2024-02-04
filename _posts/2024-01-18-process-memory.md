@@ -3,7 +3,7 @@ layout: post
 title: "Process Memory (프로세스 메모리)"
 subtitle: "프로세스의 메모리 영역"
 date: 2024-01-18 16:59:24 +0900
-categories: [OS]
+categories: [OS, PROCESS]
 ---
 ### 프로세스 메모리 (Process Memory)
 

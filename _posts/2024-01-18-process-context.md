@@ -3,7 +3,7 @@ layout: post
 title: "Process Context (프로세스 문맥)"
 subtitle: "프로세스 컨텍스트"
 date: 2024-01-18 16:42:24 +0900
-categories: [OS]
+categories: [OS, PROCESS]
 ---
 ### 프로세스 문맥 (Process Context)
 
