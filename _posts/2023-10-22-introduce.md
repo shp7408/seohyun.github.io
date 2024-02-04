@@ -1,17 +1,18 @@
 ---
 layout: post
-title: "안정적인 서비스 개발에 관심이 많은 백엔드 개발자, 박서현 입니다.👋"
+title: "현대적인 기술 스택을 활용한 서버 개발에 큰 열정을 가진 백엔드 개발자 박서현입니다.👋"
 date: 2023-10-22 21:56:00 +0900
 categories: [INTRODUCE]
 ---
-## 안정적인 서비스 개발에 관심이 많은 백엔드 개발자,
-## 박서현 입니다 👋
+## 현대적인 기술 스택을 활용한 서버 개발에 큰 열정을 가진 백엔드 개발자 박서현입니다. 👋
 
 ![TypeScript Badge](https://img.shields.io/badge/typescript-3178C6?style=plastic&logo=typescript&logoColor=white)
 ![JavaScript Badge](https://img.shields.io/badge/javascript-F7DF1E?style=plastic&logo=javascript&logoColor=black)
 ![Node.js Badge](https://img.shields.io/badge/node.js-339933?style=plastic&logo=Node.js&logoColor=white)
 ![NestJS Badge](https://img.shields.io/badge/nestjs-E0234E?style=plastic&logo=nestjs&logoColor=white)
 ![GraphQL Badge](https://img.shields.io/badge/GraphQL-E10098?style=plastic&logo=graphQL&logoColor=white)
+![TypeORM Badge](https://img.shields.io/badge/typeORM-2F2E2E?style=plastic&logo=typeORM&logoColor=white)
+
 ![JAVA Badge](https://img.shields.io/badge/JAVA-007396?style=plastic&logoColor=white)
 ![Springboot Badge](https://img.shields.io/badge/springboot-6DB33F?style=plastic&logo=springboot&logoColor=white)
 
@@ -54,7 +55,7 @@ _For a better process, for a better user experience, I study, take notes, and de
        <br>
     </p>
     <br>
-    <h2>☑️ Etc</h2>
+    <h2>✅ Etc</h2>
     <p>
         <img src="https://img.shields.io/badge/linux-FCC624?style=plastic&logo=linux&logoColor=black">
         <img src="https://img.shields.io/badge/python-3776AB?style=plastic&logo=python&logoColor=white"/>
@@ -63,6 +64,25 @@ _For a better process, for a better user experience, I study, take notes, and de
         <img src="https://img.shields.io/badge/html5-E34F26?style=plastic&logo=html5&logoColor=white">
         <img src="https://img.shields.io/badge/css-1572B6?style=plastic&logo=css3&logoColor=white">
         <img src="https://img.shields.io/badge/jquery-0769AD?style=plastic&logo=jquery&logoColor=white">
-    </p>
+   </p>
+   <br>
+
+   <h2>✅ PROFESSIONAL EXPERIENCE</h2>
+   <h3>툰스퀘어(주) (2023.06 ~ Now)</h3>
+Backend Engineer, Technical Project Manager
+
+Educational Collaboration Service, Global Webtoon Community Service
+
+<h3>맵시(주) (2023.03 ~ 2023.05)</h3>
+Backend Engineer, Technical Project Manager
+
+Realtime AIS(선박 위치 관련 정보) Service
+
+<h3>카운터 컬쳐 컴퍼니(주) (2021.07 ~ 2022.06)</h3>
+Software Engineer
+
+Global K-Pop Educational Service
 </div>
+
+
 
